@@ -1,0 +1,149 @@
+/* --------------------------------------------------------------------------------
+    Author: Owen Carruth, Dillon Baxendell, Ian Ford, Olivia Finster, and Mary Mettille
+    Theme: Your Path Admin App
+    Version: 1.0
+-------------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------------
+Dark Grey: #4A4A4A
+Light Teal: #4AAC8F
+Medium Teal: #219774
+Teal: #165A4A
+Navy Blue: #0B3943 
+-------------------------------------------------------------------------------- */
+
+html,
+body,
+#react-root {
+  height: 100%;
+  margin-top: 2%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.float-right{
+  float: right !important;
+}
+.float-left{
+  float: left !important;
+}
+.header-box{
+  margin-bottom: 3%;
+}
+.margin-top{
+  margin-top: 5%;
+}
+/* --------------------------------------------------------------------------------
+Container
+-------------------------------------------------------------------------------- */
+
+.container {
+  padding: 40px;
+}
+
+/* --------------------------------------------------------------------------------
+Alert
+-------------------------------------------------------------------------------- */
+
+.alert {
+  box-sizing: border-box;
+  padding: 15px 10px;
+  margin: 15px 0;
+  border: 2px solid #e01616;
+  background-color: #efefef;
+  border-radius: 3px;
+  color: #e01616;
+  font-size: 0.8rem;
+}
+
+/* --------------------------------------------------------------------------------
+Form Treatment
+-------------------------------------------------------------------------------- */
+
+.formPanel {
+  box-sizing: border-box;
+  width: 400px;
+  max-width: 100%;
+  padding: 25px;
+  margin: 0 auto 20px;
+  background-color: #efefef;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgb(0, 0, 0, 0.4);
+}
+
+input {
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+/* --------------------------------------------------------------------------------
+If editing component use this template to label which component you are in :)
+-------------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------------------------
+CSS for the Card Component
+-------------------------------------------------------------------------------- */
+.circle {
+  border: 2px solid black;
+  border-radius: 100%;
+  float: right;
+  padding: 15px;
+}
+
+/* --------------------------------------------------------------------------------
+CSS for the Pateint Detail
+-------------------------------------------------------------------------------- */
+
+.center {
+  text-align: center !important;
+}
+
+.float-container{
+  padding: 20px;
+}
+
+.float-child{
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+/* --------------------------------------------------------------------------------
+CSS for the Mobile Card
+-------------------------------------------------------------------------------- */
+.mobile-image {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .mobile-image {
+    width: 75%;
+  }
+}
+
+.popover{
+  width: 80%
+}
+
+.popover ul li{
+  list-style-type: none;
+}
+
+/* --------------------------------------------------------------------------------
+CSS for landing page and all register and login pages
+-------------------------------------------------------------------------------- */
+.landing-page{
+  width: 40%;
+  margin-bottom: 3%;
+}
